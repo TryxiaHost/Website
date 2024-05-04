@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+    <title>Tryxia - Hospedagem de graça para Minecraft</title>
+    <link rel="icon" type="image/png" href="./img/T.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Crie o seu servidor de Minecraft de graça em instantes! Para todos, para sempre">
+
+
+    <link href="./css/output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c65732213d.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-slate-900 font-inter">
+    <header class="sticky top-0 z-10 bg-transparent">
+        <nav class="bg-slate-950">
+            <div class="pt-2 pb-2 container max-w-screen-lg mx-auto rounded-b-lg grid grid-cols-2 md:grid-cols-3">
+                <div class="mr-auto flex justify-center">
+                    <h1 class="font-bold text-3xl text-primary-300 pointer-events-none self-center ml-4 lg:ml-0">Tryxia</h1>
+                </div>
+                <div class="hidden md:grid grid-cols-3 text-center self-center">
+                    <a href="#recursos" class="text-primary-100 hover:text-primary-200 mx-1 rounded-md hover:bg-slate-600 px-2 py-2">Recursos</a>
+                    <a href="#financeiro" class="text-primary-100 hover:text-primary-200 mx-1 rounded-md hover:bg-slate-600 px-2 py-2">Financeiro</a>
+                    <a href="#faq" class="text-primary-100 hover:text-primary-200 mx-1 rounded-md hover:bg-slate-600 px-2 py-2">Perguntas</a>
+                </div>
+                <div class="ml-auto flex justify-center">
+                    <a class="font-bold text-lg mx-1 rounded-md bg-primary-100 hover:bg-primary-500 hover:text-slate-200 text-primary-500 py-2 px-2 mr-4 lg:mr-0" href="https://mc.tryxia.com">Jogar Agora</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="relative">
+        <!-- Hero -->
+        <div class="w-full h-[32rem] flex justify-center items-center bg-slate-900">
+            <div class="container max-w-screen-lg">
+                <p class="uppercase text-xs font-bold text-center text-primary-200 px-2 md:px-0">Inicie o seu servidor de minecraft em segundos!</p>
+                <h1 class="text-4xl text-slate-200 text-center pb-5 font-bold px-2 md:px-0">Hospedagem de graça, para sempre e para todos!</h1>
+                <p class="text-center text-lg text-slate-300 px-2 md:px-0">Pegue o seu servidor de Minecraft de graça em instantes! Apenas logar com o Discord! Não importa se é Java ou Bedrock, ou os dois!</p>
+                <a href="https://mc.tryxia.com" class="flex justify-center">
+                    <button class="default-button mt-4"><i class="fa-solid fa-gamepad"></i> Jogar Agora!</button>
+                </a>
+            </div>
+        </div>
+        <!-- End Hero -->
+
+        <!-- Características -->
+        <!-- End Características -->
+
+        <!-- Recursos -->
+        <div id="recursos" class="">
+            <h1 class="text-center font-bold text-3xl text-primary-200">Recursos inclusos em todos os servidores</h1>
+            <div class="grid grid-cols-1 gap-4 max-w-[64rem] mx-auto mt-8 md:grid-cols-2 lg:grid-cols-3 px-8 lg:px-0">
+                <div class="features-box">
+                    <h1 class="features-header">Gerenciador de plugins</h1>
+                    <p class="features-description">Gerencie seus plugins com o apertar de um botão!</p>
+                </div>
+                <div class="features-box">
+                    <h1 class="features-header">Backups off-site</h1>
+                    <p class="features-description">Faça backups em minutos que serão salvos em outro datacenter!</p>
+                </div>
+                <div class="features-box">
+                    <h1 class="features-header">Sub-usuários</h1>
+                    <p class="features-description">Convide seus amigos para gerenciar o servidor com você!</p>
+                </div>
+                <div class="features-box">
+                    <h1 class="features-header">Acesso SFTP</h1>
+                    <p class="features-description">Importe qualquer plugin, software de servidor e arquivo com acesso total SFTP!</p>
+                </div>
+                <div class="features-box">
+                    <h1 class="features-header">Banco de Dados MySQL</h1>
+                    <p class="features-description">Conecte seus plugins, faça testes e sincronize com eficiência!</p>
+                </div>
+                <div class="features-box">
+                    <h1 class="features-header">Proteção DDoS</h1>
+                    <p class="features-description">Provida pela path.net, suportando até 12Tbps!</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Recursos -->
+
+        <!-- Financeiro -->
+        <h1 class="text-center font-bold text-3xl mt-8 text-primary-200">Onde que o dinheiro vai?</h1>
+        <div class="md:grid md:grid-cols-2 max-w-[64rem] mx-auto my-8" id="financeiro">
+            <div>
+                <div>
+                    <canvas class="max-w-96 mx-auto" id="myChart"></canvas>
+                    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+                    <script src="./js/chart.js"></script>
+                </div>
+                <div>
+                    <p class="px-8 text-sm text-slate-300 text-center">O gráfico a cima mostra as entradas (Anel interior) e as saídas (Anel exterior) para o período de 21/03 até 21/04. Os dados poderão estar simplificados e arredondados.</p>
+                </div>
+            </div>
+            <div class="mx-8 sm:mt-8 text-slate-300 mt-4 md:mt-0 text-center md:text-left">
+                <p>Nós somos feitos para a comunidade, e pela a comunidade, as <a class="font-bold">doações são a nossa principal fonte de renda</a> para manter os nossos serviços e melhorar a hospedagem.</p>
+                <p class="mt-3.5">A Tryxia é <a class="font-bold">de graça e para sempre</a>, nunca cobraremos pelos nossos serviços, nem mesmo por adicionais.</p>
+                <p class="mt-3.5">Qualquer informação para doação, e qualquer dúvida, não hesite de entrar em contato pelo nosso <a href="https://dc.tryxia.com" class="text-blue-500 hover:text-primary-300">Discord</a>, também temos a nossa <a href="https://docs.tryxia.com" class="text-blue-500 hover:text-primary-300">documentação</a> com explicações e tutoriais, e a nossa <a href="https://status.tryxia.com" class="text-blue-500 hover:text-primary-300">página de status</a> com histórico e informações sobre os nossos nodes.</p>
+            </div>
+        </div>
+        <!-- End Financeiro -->
+
+        <!-- FAQ -->
+        <h1 class="text-center font-bold text-3xl text-primary-200 my-8" id="faq">Perguntas Frequentes</h1>
+        <div class="sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg mx-auto px-8 sm:px-4" id="accordion-collapse" data-accordion="collapse">
+            <h2 id="accordion-collapse-heading-1">
+            <button type="button" class="accordion-heading rounded-t-xl" data-accordion-target="#accordion-collapse-body-1" aria-expanded="false" aria-controls="accordion-collapse-body-1">
+                <span class="text-slate-200">Quais os recursos de cada servidor?</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+            </button>
+            </h2>
+            <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+                <div class="p-5 border border-b-0 border-primary-100">
+                    <p class="mb-2 text-slate-300">Cada servidor tem 4GB de ram, 10GB de armazenamento, 200% de CPU, assim como 3 banco de dados, 3 backups e 3 portas adicionais.</p>
+                </div>
+            </div>
+            <h2 id="accordion-collapse-heading-2">
+            <button type="button" class="accordion-heading" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+                <span class="text-slate-200">Os servidores ficam online 24 horas por dia?</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+            </button>
+            </h2>
+            <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+                <div class="p-5 border border-b-0 border-primary-100">
+                    <p class="mb-2 text-slate-300">É necessário que a cada 4 horas o servidor seja renovado em nosso painel, apenas apertar um botão! Se ele for renovado sempre a cada 4 horas, ele poderá ficar 24 horas por dia online.</p>
+                </div>
+            </div>
+            <h2 id="accordion-collapse-heading-3">
+            <button type="button" class="accordion-heading" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+                <span class="text-slate-200">Meu servidor será deletado?</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+            </button>
+            </h2>
+            <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+                <div class="p-5 border border-t-0 border-primary-100">
+                    <p class="mb-2 text-slate-300">Caso o servidor fique mais de 1 semana (168 horas) sem ficar online ele será deletado, para fins de liberar mais espaço no sistema.</p>
+                    </ul>
+                </div>
+            </div>
+            <h2 id="accordion-collapse-heading-4">
+            <button type="button" class="accordion-heading rounded-b-xl border-b focus:rounded-b-none aria-expanded:rounded-b-none" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-4">
+                <span class="text-slate-200">Como vocês se mantém?</span>
+                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                </svg>
+            </button>
+            </h2>
+            <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
+                <div class="p-5 border border-t-0 border-primary-100 rounded-b-xl">
+                    <p class="mb-2 text-slate-300">Nos mantemos, principalmente, por doações feitas pelos nossos usuários! Assim como anúncios dentro do nosso painel.</p>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+        <!-- End FAQ -->
+
+        <!-- Call to action -->
+        <div class="text-center my-8 mb-12">
+            <h1 class="font-bold text-3xl text-primary-200">O que você está esperando?</h1>
+            <p class="text-slate-200 mb-4 text-sm">Venha criar o seu servidor gratuitamente agora!</p>
+            <a href="https://mc.tryxia.com" class="default-button">
+                <button class=""><i class="fa-solid fa-plus"></i> Criar conta</button>
+            </a>
+        </div>
+        <!-- End Call to action -->
+
+    </main>
+
+    <footer class="bg-slate-950">
+        <div class="grid grid-cols-3 text-slate-300 py-3 mt-6 container max-w-screen-lg mx-auto">
+            <div>
+                <h1 class="text-2xl font-bold text-primary-300 ml-2">Tryxia</h1>
+                <p class="text-xs text-slate-400 mx-2 mt-2">Hospedagem totalmente de graça para Minecraft! Mantida por doações e pela comunidade.</p>
+            </div>
+            <div>
+                <h1 class="text-primary-300 font-bold">Páginas</h1>
+                <ul>
+                    <li><a href="terms.pdf" class="hover:text-primary-200">Termos de serviço</a></li>
+                    <li><a href="privacy.pdf" class="hover:text-primary-200">Política de Privacidade</a></li>
+                    <li><a href="https://br.trustpilot.com/review/tryxia.com" class="hover:text-primary-200">TrustPilot</a></li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="text-primary-300 font-bold">Suporte</h1>
+                <ul>
+                    <li><a href="https://dc.tryxia.com" class="hover:text-primary-200">Discord</a></li>
+                    <li><a href="https://docs.tryxia.com" class="hover:text-primary-200">Documentação</a></li>
+                    <li><a href="https://status.tryxia.com" class="hover:text-primary-200">Status dos servidores</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-center text-slate-400 text-sm">© 2024 Tryxia. Alguns direitos reservados.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+</html>
