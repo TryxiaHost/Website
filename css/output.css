@@ -448,6 +448,10 @@ video {
   display: none;
 }
 
+html {
+  font-family: "Inter";
+}
+
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -1012,9 +1016,9 @@ video {
   text-transform: uppercase;
 }
 
-.text-blue-500{
+.text-blue-600{
   --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
+  color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
 .text-primary-100{
