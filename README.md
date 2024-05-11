@@ -7,5 +7,4 @@ Esse website pode ser visto, em [tryxia.com](https://tryxia.com)
 * No Gráfico (Que está sendo feito com GraphJS) não consegui fazer com cada layer tenha um label diferente, então atribuí valores nulos, porém, se colcoar o mouse em partes extremamente específicas, é possível ver esses valores, que estarão com 0.
 
 # To-Do
-* Deixar apenas Inter como fonte
 * Deixar ele menos feio
