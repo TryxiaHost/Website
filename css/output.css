@@ -1,7 +1,7 @@
 @import url('https://rsms.me/inter/inter.css');
 
 /*
-! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -750,6 +750,10 @@ html {
   margin-bottom: 1rem;
 }
 
+.mb-8{
+  margin-bottom: 2rem;
+}
+
 .ml-2{
   margin-left: 0.5rem;
 }
@@ -836,6 +840,19 @@ html {
 
 .max-w-screen-lg{
   max-width: 1024px;
+}
+
+.max-w-fit{
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.max-w-sm{
+  max-width: 24rem;
+}
+
+.max-w-12{
+  max-width: 3rem;
 }
 
 .shrink-0{
@@ -1054,6 +1071,11 @@ html {
 .text-slate-400{
   --tw-text-opacity: 1;
   color: rgb(148 163 184 / var(--tw-text-opacity));
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:bg-primary-500:hover{
